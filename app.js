@@ -4,7 +4,7 @@ const app = express();
 
 // Enable CORS for your specific frontend domain
 app.use(cors({
-    origin: 'https://pl3-sir.onrender.com',  // Replace with your domain
+    origin: 'https://render-oj37.onrender.com',  // Replace with your domain
     methods: 'GET,POST',  // You can specify allowed HTTP methods
     allowedHeaders: 'Content-Type'
 }));
